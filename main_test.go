@@ -15,6 +15,8 @@ func TestIsPalindrome(t *testing.T) {
 		{11, true},
 		{112, false},
 		{121, true},
+		{0, true},
+		{-1, true},
 		{1211111111, false},
 		{1211111121, true},
 	}
