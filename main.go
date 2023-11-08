@@ -13,13 +13,6 @@ func IsPalindrome(input int) bool {
 
 }
 
-// reverse
-// equate
-
-// split digits using modulus
-// write digits in reverse order
-// equate
-
 func main() {
 	fmt.Println(IsPalindrome(123)) // false
 	fmt.Println(IsPalindrome(121)) // true
